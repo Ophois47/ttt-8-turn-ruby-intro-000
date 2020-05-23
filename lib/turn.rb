@@ -1,5 +1,5 @@
 def display_board(board)
-  board = arr[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = index[" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts board
 end
 
