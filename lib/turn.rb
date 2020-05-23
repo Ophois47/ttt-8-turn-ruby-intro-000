@@ -45,6 +45,5 @@ def turn(board)
 
   user_input = gets.strip
   input_to_index(user_input)
-  valid_move(new_user_input)
 
 end
