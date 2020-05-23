@@ -23,8 +23,11 @@ def update_array_at_with(board, index, character)
   board[index] = character
 end
 
-def valid_move?(board, index)
-  if index.between?(0,8) && index != 'X' || index != 'Y'
+def position_taken?(board, index)
+  input = board[1..9]
+  if board[index] == " " || board[index] == "" || board[index] == nil
+    false
+  else board[index] == "X" || board[index] == "O"
     true
   end
 end
