@@ -1,4 +1,4 @@
-def display_board(board)
+def display_board(board, index)
   board = index[" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts board
 end
