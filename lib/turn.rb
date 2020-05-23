@@ -1,5 +1,5 @@
 def display_board(board, index)
-  input = board[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = index[]
   puts board
 end
 
