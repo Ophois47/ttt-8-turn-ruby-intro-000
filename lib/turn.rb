@@ -1,5 +1,6 @@
-def display_board
+def display_board(board)
   board = arr[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts board
 end
 
 def valid_move?(board, index)
