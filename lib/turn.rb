@@ -48,8 +48,4 @@ def turn(board)
   if position_taken == true
     turn
   end
-
-  if position_taken == false
-    puts board
-  end
 end
